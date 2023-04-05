@@ -6,11 +6,11 @@ import 'scenes/ExampleScene'
 import 'scenes/ExampleScene2'
 
 Noble.Settings.setup({
-	Difficulty = "Medium"
+  Difficulty = "Medium"
 })
 
 Noble.GameData.setup({
-	Score = 0
+  Score = 0
 })
 
 Noble.showFPS = true
