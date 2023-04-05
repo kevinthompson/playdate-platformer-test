@@ -7,3 +7,4 @@ A simple prototype platformer for Playdate built using [Noble Engine](https://gi
 
 ## Assets
 - [Monochrome Caves](https://adamatomic.itch.io/mc-caves)
+- [A.B. Cop Font ](https://idleberg.github.io/playdate-arcade-fonts/try/A.B.%20Cop)

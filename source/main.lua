@@ -13,6 +13,9 @@ if playdate.isSimulator then
   LDtk.export_to_lua_files()
 end
 
+-- fonts
+Noble.Text.FONT_SMALL = Graphics.font.new("assets/fonts/A.B. Cop")
+
 -- Noble.Settings.setup({
 --   Difficulty = "Medium"
 -- })
