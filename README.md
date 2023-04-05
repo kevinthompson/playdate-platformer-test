@@ -1,4 +1,9 @@
-# Noble Engine: project template
-A starting template for [Noble Engine](https://github.com/NobleRobot/NobleEngine) projects.
+# Playdate Platformer
+A simple prototype platformer for Playdate built using [Noble Engine](https://github.com/NobleRobot/NobleEngine).
 
-The engine is included as a submodule for this repository. Be sure to recurse submodules when you clone this repo or use it as a template.
+## Libraries
+- [Noble Engine](https://github.com/NobleRobot/NobleEngine)
+- [PlaydateLDtkImporter](https://github.com/NicMagnier/PlaydateLDtkImporter)
+
+## Assets
+- [Monochrome Caves](https://adamatomic.itch.io/mc-caves)
