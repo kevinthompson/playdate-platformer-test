@@ -1,0 +1,7 @@
+name=LDtk Importer
+author=Nic Magnier
+description=Example for LDtk Importer
+bundleID=com.NicMagnier.LDtkImporter
+imagePath=
+pdxversion=11300
+buildtime=733990081

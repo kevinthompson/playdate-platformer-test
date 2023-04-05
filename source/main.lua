@@ -1,18 +1,27 @@
+import '../toyboxes/toyboxes.lua'
 import 'libraries/noble/Noble'
 
 import 'utilities/Utilities'
 
-import 'scenes/ExampleScene'
-import 'scenes/ExampleScene2'
+-- scenes
+import 'scenes/TitleScene'
+import 'scenes/GameScene'
 
-Noble.Settings.setup({
-  Difficulty = "Medium"
-})
+-- levels
+local use_ldtk_precomputed_levels = not playdate.isSimulator
+LDtk.load("levels/world.ldtk")
+if playdate.isSimulator then
+  LDtk.export_to_lua_files()
+end
 
-Noble.GameData.setup({
-  Score = 0
-})
+-- Noble.Settings.setup({
+--   Difficulty = "Medium"
+-- })
+
+-- Noble.GameData.setup({
+--   Score = 0
+-- })
 
 Noble.showFPS = true
 
-Noble.new(ExampleScene, 1.5, Noble.TransitionType.CROSS_DISSOLVE)
+Noble.new(TitleScene, 1.5, Noble.TransitionType.CROSS_DISSOLVE)
