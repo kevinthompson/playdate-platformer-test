@@ -42,6 +42,7 @@ luac.out
 .vscode
 
 builds/
+*.pdx
 
 source/libraries/noble/docs/
 .DS_Store
